@@ -10,7 +10,12 @@ A simple Flutter weather app that fetches data from a weather API and displays w
 
 ## 📱 Screenshots
 
-_Add screenshots or GIFs of your app here._
+
+<p align="center">
+  <img src="./assets/Screenshot_0.png" alt="Welcome Screen" width="500"/>
+  <br>
+  <em>Welcome Screen</em>
+</p>
 
 ## 🛠️ Getting Started
 
