@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "30740573999",
+    "project_id": "phivegymapp",
+    "storage_bucket": "phivegymapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30740573999:android:f21175f8236420ae253bda",
+        "android_client_info": {
+          "package_name": "com.example.gym_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2jwzX03W9TiPwjXUO_uLdN0t5S5BSTik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
