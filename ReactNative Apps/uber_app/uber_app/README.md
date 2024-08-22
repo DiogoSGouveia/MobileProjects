@@ -13,19 +13,19 @@ An Uber-like mobile application built with **React Native** that allows users to
 
 Below are some screenshots of the Uber Clone app:
 
-![Welcome Screen](./assets/screenshots/screenshot0.jpeg)
+![Welcome Screen](./assets/screenshots/screenshot_0.jpeg)
 *Welcome Screen*
 
-![Login Screen](./assets/screenshots/screenshot1.jpeg)
+![Login Screen](./assets/screenshots/screenshot_1.jpeg)
 *Login Screen*
 
-![Home Screen](./assets/screenshots/screenshot2.jpeg)
+![Home Screen](./assets/screenshots/screenshot_2.jpeg)
 *Home Screen*
 
-![Select Driver Screen](./assets/screenshots/screenshot3.jpeg)
+![Select Driver Screen](./assets/screenshots/screenshot_3.jpeg)
 *Select Driver Screen*
 
-![Payment Screen](./assets/screenshots/screenshot4.jpeg)
+![Payment Screen](./assets/screenshots/screenshot_4.jpeg)
 *Payment Screen*
 
 ## 🚀 Getting Started
