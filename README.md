@@ -1,4 +1,4 @@
-# MobileProjects 📱
+# Mobile Projects 📱
 
 This repository contains a collection of mobile applications I have developed over the years, showcasing my work with various mobile development frameworks and programming languages.
 
