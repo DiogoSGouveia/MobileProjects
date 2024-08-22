@@ -14,6 +14,10 @@ The repository is organized into different folders based on the technology or fr
 
 - **React Native Apps**: A set of cross-platform mobile apps created using React Native and JavaScript/TypeScript, showcasing my experience with the popular React ecosystem.
 
+## Finished Projects
+**React Native** - Uber App
+**Flutter** - Weather App
+
 ## Getting Started 🚀
 
 Each folder contains individual projects with their own `README.md` files and setup instructions. To explore and run any specific project:
