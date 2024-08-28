@@ -1,4 +1,4 @@
-0# 🚖 Uber Clone App
+## 🚖 Uber Clone App
 
 An Uber-like mobile application built with **React Native** that allows users to book rides and make payments seamlessly. This project integrates key technologies like **PostgreSQL**, **TypeScript**, **Stripe**, **TailwindCSS**, **Maps API**, and **OAuth** for a full-stack experience.
 
