@@ -23,7 +23,7 @@ The repository is organized into different folders based on the technology or fr
 Each folder contains individual projects with `README.md` files and setup instructions. To explore and run any specific project:
 
 1. Navigate to the desired folder (e.g., `Flutter Apps`, `Kotlin Apps`, or `ReactNative Apps`).
-2. Follow the instructions provided in the project’s README file.
+2. Enjoy the provided projects.
 
 ### Prerequisites
 
