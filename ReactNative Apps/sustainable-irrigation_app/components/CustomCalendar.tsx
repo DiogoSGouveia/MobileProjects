@@ -13,7 +13,7 @@ const CustomCalendar: React.FC<CustomCalendarProps> = ({
   onSave = () => {},
 }) => {
   return (
-    <View className="w-[416px] h-[375px] bg-general-100 rounded-3xl mt-8 p-4 shadow-md shadow-general-800 self-center items-center flex-col">
+    <View className="w-[416px] h-[375px] bg-general-100 rounded-3xl mt-8 p-4 shadow-sm shadow-general-800 self-center items-center flex-col">
       <Text className="text-primary-500 font-RubikMedium text-xl">
         Schedule Watering Time
       </Text>
