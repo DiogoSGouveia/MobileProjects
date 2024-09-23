@@ -1,7 +1,8 @@
 import { icons } from "@/constants";
 import { View, Image, Text, TouchableOpacity } from "react-native";
-
+import { DrawerActions, useNavigation } from "@react-navigation/native";
 const TopBar = () => {
+  const navigation = useNavigation();
   return (
     <View className="shrink flex-row justify-center items-center px-5">
       <TouchableOpacity
@@ -32,6 +33,7 @@ const TopBar = () => {
       <TouchableOpacity
         className="absolute top-0 right-5  bg-secondary-500 bg-opacity-50 p-3 rounded-full"
         activeOpacity={0.8}
+        onPress={() => navigation.dispatch(DrawerActions.openDrawer())}
       >
         <Image
           source={icons.menuBurger}
