@@ -15,3 +15,7 @@ declare interface AnswerCardProps {
   answer: string;
   className?: string;
 }
+
+declare interface GameTableProps {
+  data: string;
+}

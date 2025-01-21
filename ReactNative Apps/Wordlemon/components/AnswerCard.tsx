@@ -1,5 +1,5 @@
 import { AnswerCardProps } from "@/types/type";
-import { Text, View } from "react-native";
+import { Text, View, Image } from "react-native";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 
 const getBgVariantStyle = (variant: string) => {
@@ -24,9 +24,7 @@ const getIconVariantStyle = (variant: string) => {
     case "incorrect":
       return <FontAwesome6 name="xmark" size={16} color="#8A1F1F" />;
     default:
-      return (
-        <Text className="text-text-light dark:text-text-dark"> {variant} </Text>
-      );
+      return <Image source={{ uri: variant }} className="w-[300%] h-[300%]" />;
   }
 };
 

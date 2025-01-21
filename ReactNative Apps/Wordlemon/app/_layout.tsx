@@ -41,6 +41,7 @@ export default function RootLayout() {
     <SafeAreaView className="flex-1 bg-background-light dark:bg-background-dark">
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="(root)" options={{ headerShown: false }} />
       </Stack>
     </SafeAreaView>
   );
