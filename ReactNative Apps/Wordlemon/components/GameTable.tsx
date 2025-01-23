@@ -4,25 +4,21 @@ import AnswerCard from "./AnswerCard";
 import { GameTableProps } from "@/types/type";
 import { useState } from "react";
 
-const dummyData = [
-  { label: "Sprite", answers: ["Ditto", "Pidgey"] },
-  { label: "Type1", answers: ["correct", "correct"] },
-  { label: "Type2", answers: ["missing", "correct"] },
-  { label: "Gen", answers: ["missing", "incorrect"] },
-  { label: "Color", answers: ["missing", "incorrect"] },
-];
+const label = ["Sprite", "Type1", "Type2", "Gen", "Color"];
 
-const GameTable = (data: GameTableProps) => {
+const GameTable = ({ data }: GameTableProps) => {
   return (
     <View className="flex flex-row w-full justify-center mt-4 gap-1">
-      {dummyData.map((item, index) => (
+      {label.map((item, index) => (
         <View key={index} className="flex flex-col items-center gap-2">
-          <Text className="text-text-light dark:text-text-dark">
-            {item.label}:
+          <Text className="text-text-light dark:text-text-dark font-josefin500Medium">
+            {item}:
           </Text>
-          {item.answers.map((answer, answerIndex) => (
-            <AnswerCard key={answerIndex} answer={answer} />
-          ))}
+          {data
+            .map((result, resultIndex) => (
+              <AnswerCard key={resultIndex} answer={result.results[index]} />
+            ))
+            .reverse()}
         </View>
       ))}
     </View>

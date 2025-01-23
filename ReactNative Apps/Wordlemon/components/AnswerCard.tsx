@@ -28,16 +28,14 @@ const getIconVariantStyle = (variant: string) => {
   }
 };
 
-const AnswerCard = ({ answer, className }: AnswerCardProps) => {
+const AnswerCard = ({ answer, size = "h-5 w-5" }: AnswerCardProps) => {
   const bgVariantStyle = getBgVariantStyle(answer);
 
   const iconVariantStyle = getIconVariantStyle(answer);
 
   return (
-    <View
-      className={`p-4 border-2 rounded-lg shadow-lg ${bgVariantStyle} ${className}`}
-    >
-      <View className="flex justify-center items-center h-5 w-5">
+    <View className={`p-4 border-2 rounded-lg shadow-lg ${bgVariantStyle} `}>
+      <View className={`flex justify-center items-center ${size}`}>
         {iconVariantStyle}
       </View>
     </View>

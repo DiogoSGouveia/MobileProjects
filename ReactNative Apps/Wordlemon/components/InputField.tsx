@@ -1,15 +1,19 @@
 import { InputFieldProps } from "@/types/type";
+import { Ionicons } from "@expo/vector-icons";
 import {
   Image,
   Keyboard,
   KeyboardAvoidingView,
   Platform,
   TextInput,
+  TouchableOpacity,
   TouchableWithoutFeedback,
 } from "react-native";
 import { View, Text } from "react-native";
+import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 
 const InputField = ({
+  onPress,
   label,
   labelStyle,
   icon,
@@ -29,18 +33,19 @@ const InputField = ({
         >
           {label}
         </Text>
-        <View
-          className={`flex flex-row justify-start items-center relative bg-neutral-100 dark:bg-neutral-900 rounded-lg border border-neutral-300 dark:border-neutral-700 focus:border-primary ${containerStyle}`}
-        >
-          {icon && (
-            <Image source={icon} className={`w-6 h-6 ml-4 ${iconStyle}`} />
-          )}
+        <View className="flex flex-row justify-center items-center gap-2 h-14">
           <TextInput
-            className={`rounded-full p-4 font-josefin500Medium text-[15px] w-3/4 ${inputStyle} text-left text-text-light dark:text-text-dark`}
+            className={`p-4 font-josefin500Medium text-[15px] bg-neutral-100 dark:bg-neutral-900 rounded-lg border border-neutral-300 dark:border-neutral-700 focus:border-primary w-5/6 h-full justify-start items-center ${inputStyle} text-left text-text-light dark:text-text-dark`}
             secureTextEntry={secureTextEntry}
             placeholder={placeholder}
             {...props}
           />
+          <TouchableOpacity
+            className="rounded-lg border dark:bg-neutral-100 bg-neutral-900 border-neutral-300 dark:border-neutral-700 p-0 aspect-square h-full justify-center items-center"
+            onPress={onPress}
+          >
+            <MaterialCommunityIcons name="pokeball" size={24} color="#ffb703" />
+          </TouchableOpacity>
         </View>
       </View>
     </TouchableWithoutFeedback>
